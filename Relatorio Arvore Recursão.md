@@ -13,7 +13,7 @@ A funcionalidade de remoção foi adicionada à classe **ArvoreBinaria** por mei
 
 2\. Casos tratados  
 2.1 Nó folha (sem filhos)  
-Quando o nó encontrado não possui filhos à esquerda nem à direita, o método retorna null, fazendo com que o pai perca a referência para esse nó. A memória passa a ser elegível para coleta pelo Garbage Collector da JVM.  
+Quando o nó encontrado não possui filhos à esquerda nem à direita, o método retorna null, fazendo com que o pai perca a referência para esse nó.
 Antes:   \-3
 
            \\
